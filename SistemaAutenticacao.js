@@ -1,6 +1,8 @@
 /*
     Sistema de Autenticação
     ser autenticável significa ter o método autenticar
+
+    ducky type = andar com o pato, grasnar como um pato, nadar como um pato... é um pato!
 */
 
 export class SistemaAutenticacao {
