@@ -21,8 +21,12 @@ export class Conta {
   get saldo() {
     return this._saldo;
   }
-
+  //método abstrato
   sacar(valor) {
+    throw new Error("O método sacar da conta é abstrato.");
+  }
+
+  _sacar(valor) {
     let taxa = 1;
     const valorSacado = taxa * valor;
     if (this._saldo >= valorSacado) {
